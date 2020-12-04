@@ -48,6 +48,7 @@ require_once("classes/viewModel/teacherDashboard.viewmodel.php");
 <body id="home-page" ng-app="ernext" ng-controller="mainControl">
 	<!-- Header -->
 	<?php include_once('header.inc.php'); ?>
+	<div class="cl"></div>
     <!-- eof Header -->
     
     <div id="container">
