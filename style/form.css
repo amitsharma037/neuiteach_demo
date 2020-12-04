@@ -1,0 +1,650 @@
+/**
+*	The ansysoft.css will include all the css
+*	
+*	@date			Oct 10, 2020
+*	@version 		1.0
+*	@autor			Amit Kumar Sharma	
+*	@copyright		Neuiton System
+*	@email			developer@neuiton.com
+*/
+
+input[type=button] {
+	cursor:pointer;
+	letter-spacing:1px;
+	-webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+	text-decoration:none;
+	outline:none;
+}
+input[type=text], input[type=file] {
+	-webkit-appearance: none;
+}
+input[type=button]:disabled, input[type=submit]:disabled, input[type=button]:disabled:hover, input[type=submit]:disabled:hover {
+	background: #cecece;
+	cursor:default;
+	border:1px solid #cecece;
+	color:#fff;
+}
+
+label {
+	margin:0;
+	width:auto;
+	text-align:left;
+	display:block;
+	float:left;
+	/*color:#474747;*/
+	/*color:#cecece;*/
+    color: #B7B7B7;
+	font-size:14px;
+	padding:0 0 5px 0;
+}
+.text-box {
+	font-family:Nunito-Regular, Roboto-Regular, Roboto, sans-serif, Arial;
+	font-size:15px;
+	width:calc(100% - 20px);
+	height:42px;
+	padding:0 10px;
+	/*border:1px solid #79D2D0;*/
+	border:1px solid #CCCCCC;
+	color:#3E3E3E;
+	background:none;
+	resize:none;
+	outline:none;
+}
+#orderLab .search-location-txt, #orderPharmacy .search-location-txt, #orderMed .search-location-txt{
+	height:42px !important;
+	border-radius: 2px;
+}
+ordermedicine-color {
+	border:1px solid #CCCCCC;
+}
+
+input.text-field-search {
+	height:32px;
+	width:49px;
+	padding:0 14px;
+	margin:0;
+	background: none;
+	border: 0px;
+	background:url(../images/icon/searcch-icon.png) no-repeat center;
+}
+input.text-field-search:focus {
+	background:#e2e0e0;
+}
+
+input:focus {outline:none;}
+
+input[type=text] {
+	/*font:normal 14px 'OpenSans-Light',arial;*/
+	font-family:Nunito-Regular, Roboto-Regular, Roboto, sans-serif, Arial;
+	font-size:14px;
+}
+
+input.text-field {		
+	width:230px;
+	height:40px;
+	padding:0 10px;
+	margin:0px;
+	float:left;
+	border-radius:2px;
+	-o-border-radius:2px;
+	-ms-border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+
+select {		
+	width:230px;
+	height:38px;
+	padding:0 10px;
+	margin:0px;
+	float:left;
+	border-radius:0px;
+	-o-border-radius:0px;
+	-ms-border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border:1px solid #f4f4f4;
+	background:#fdfdfd;
+	-webkit-appearance: none;  /*Removes default chrome and safari style*/
+    -moz-appearance: none;    /* Removes Default Firefox style*/
+	appearance: none;
+	text-indent: 0.01px; /* Removes default arrow from firefox*/
+    text-overflow: "";  /*Removes default arrow from firefox*/	
+	font-family: Roboto-Regular, Roboto, sans-serif, Arial;
+    font-size: 14px;
+}
+
+
+#selectLang {
+	font-size:12px;
+	padding:0px;
+	width:45px !important;
+	height:auto !important;
+	float:left;
+}
+.full-width input.text-field, .full-width textarea {
+	width: -moz-calc(100% - 142px);
+	width: -webkit-calc(100% - 142px);
+	width: -o-calc(100% - 142px);
+	width: calc(100% - 142px);
+}
+/*select {
+	height:45px;
+	border: 1px solid #79d2d0;
+	color:#878787;
+}*/
+
+/**  Ranjan   **/
+.selectize {
+	width:100%;
+}
+.selectize .select2-dropdown {
+	border-right: none;
+}
+ /* for IE */
+select::-ms-expand {
+    display: none;
+	background:url(../images/icon/accordian_down.png) no-repeat 0px 2px;
+}
+.selectize-big .select2-container .select2-selection--single{ 
+	height:42px;
+}
+.selectize-big .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 42px; 
+}
+.selectize-big .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 42px;
+}
+/**  eof Ranjan   **/
+
+
+textarea {
+	height:180px;
+	padding:10px 10px;
+	resize:none;	
+}
+.full-width textarea {
+	width: -moz-calc(100% - 20px);
+	width: -webkit-calc(100% - 20px);
+	width: -o-calc(100% - 20px);
+	width: calc(100% - 20px);
+}
+input[type=submit]{	
+	background:#2562c6;
+	/*font: normal 16px 'OpenSans-Light', arial;	*/
+	font-family:Nunito-Regular, Roboto-Regular, Roboto, sans-serif, Arial;
+	fonr-size:16px;
+	outline:none;
+	border:none;
+	color:#fff;
+	height:50px;
+	width:134px;
+	padding:0 20px;
+	text-align:center;		
+	display:block;
+	margin:10px 0 40px 120px;
+	text-transform:uppercase;	
+	cursor:pointer;
+}
+
+label.label-invisible {
+	height:16px;
+}
+
+
+.btn-available {
+	width:190px;
+	background:#51b88b;
+	border:1px solid #51b88b;
+}
+.btn-available:hover {
+	color:#51b88b;
+	background:#fff;
+}
+.btn-other {
+	width:190px;
+	background:#4ca3a1;
+	border:1px solid #4ca3a1;
+}
+.btn-other:hover {
+	background:#fff;
+	color:#4ca3a1;
+}
+.btn-send {
+	width:190px;
+	background:#47ad47;
+	border:1px solid #47ad47;
+}
+.btn-send:hover {
+	color:#47ad47;
+	background:#fff;
+}
+.btn-cancel {
+	width:190px;
+	background:none;
+	border:1px solid #dde2e9 ;
+	color:#717171;
+}
+.btn-cancel:hover {
+	background:#dde2e9 ;
+	color:#717171;
+	border:1px solid #dde2e9 ;
+}
+
+.btn-continue {
+    background:#bdbdbd;
+	border:1px solid #bdbdbd;
+}
+	.btn-continue:hover {
+		background: #fff;
+		color:#bdbdbd;
+		border:1px solid #bdbdbd;
+	}
+.inner-main .btn-search {
+	/*width:190px;
+	background:#47ad47;
+	border:1px solid #47ad47;*/
+	
+	/*font:normal 16px 'ProximaNova-Bold',arial;*/
+	font-family:Nunito-Regular, Roboto-Regular, Roboto, sans-serif, Arial;
+	font-size:16px;
+	background:#50aba9;
+	height:50px;	
+	color:#fff;
+	border:0;
+	border-radius:0;
+	-o-border-radius:0;
+	-ms-border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+}
+	.inner-main .btn-search:hover {
+		background: #fff;
+		color:#50aba9;
+		border:1px solid #50aba9;
+	}
+.btn-add {
+	width:190px;
+	background:#50ABA9;
+	border:1px solid #50ABA9;
+}
+	.btn-add:hover {
+		background: #fff;
+		color:#50ABA9;
+		border:1px solid #50ABA9;
+	}
+.btn-save {
+	width:190px;
+	/*background:#50ABA9;
+	border:1px solid #50ABA9;*/
+	background:#1499fe;
+	border:1px solid #1499fe;
+}
+	.btn-save:hover {
+		background: #fff;
+		/*color:#50ABA9;
+		border:1px solid #50ABA9;*/
+		color:#1499fe;
+		border:1px solid #1499fe;
+	}
+.btn-edit {
+	width:190px;
+	background:#149AFF;
+	border:1px solid #149AFF;
+}
+	.btn-edit:hover {
+		color:#149AFF;
+		background:#fff;
+		border:1px solid #149AFF;
+	}
+/** Slider + Membership **/
+.slider-content .btn-search, #membership-section button[type=button], #dashboard-page .btn-search, #footer button[type=button] {
+	font-family:Nunito-Regular, Roboto-Regular, Roboto, sans-serif, Arial;
+	font-size:16px;
+	background:#50aba9;
+	height:50px;	
+	color:#fff;
+	border:0;
+	border-radius:0;
+	-o-border-radius:0;
+	-ms-border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+}
+/*.btn-search {
+	font:normal 16px 'ProximaNova-Bold',arial;
+	background:#50aba9;
+	height:50px;	
+	color:#fff;
+	border:0;
+	border-radius:0;
+	-o-border-radius:0;
+	-ms-border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+}*/
+#membership-section button[type=button] {
+	font-family:Nunito-Regular, Roboto-Regular, Roboto, sans-serif, Arial;
+	font-size:12px;
+	background:#114c4b;
+}
+#footer button[type=button] {
+	background: #22ACC3;
+	color:#fff;
+	border:none;
+	border-radius:50px;	
+	text-transform:uppercase;
+    width: 150px;
+}
+/*#footer button[type=button]:hover {
+	background:#f2f2f2;
+}*/
+#membership-section button[type=button]:hover, #aboutUsPage .btn-read:hover {
+	background:#0d3938;
+}
+.slider-content .btn-search:hover {
+	background:#459492;
+}
+/** eof Slider + Membership **/
+
+/* CSS Document */
+
+.text-box-left {
+	width:calc(49.75% - 80px);
+	padding:0 40px;
+	float:left;
+}
+.text-box-right {
+	width:calc(49.75% - 40px);
+	padding:0 20px;
+	float:left;
+	border-left:0;
+}
+.text-field:focus{
+	outline:none;
+}
+.one-half .text-box {
+	width:calc(100% - 20px);
+	padding:5px 10px;
+	/*border:1px solid #dcdcdc;*/
+}
+.one-half select {
+	width:100%;
+	border: 1px solid #EBEBEB;
+}
+
+.text-area  {
+	width:auto;
+	height:auto;
+	resize:none;
+}
+
+.btn-remove {
+	background:url(../images/icon/cancel.png) no-repeat center left;
+	margin:0;
+}
+.edit-action .text-box {
+	
+}
+.btn-container .btn-link {
+	margin-right:10px;
+	margin-top:0;
+	padding: 10px 0;
+	cursor: pointer;
+
+}
+.empty-label {
+	width:100px;
+	height:18px;
+	display:block;
+}
+#formScheduleform .selected-main-list {
+	width:18%;
+}
+.btn-remainder {
+	width:200px;
+	border:1px solid #fff;
+	margin:10px 0;
+}
+.btn-remainder:hover {
+	background:#fff;
+	color:#8E44AD;
+}
+.btn-remainder:focus {
+	background:#fff;
+	color:#8E44AD;
+	text-decoration:none;
+}
+.inner-one-half textarea {
+	width:100%;
+}
+
+/** Membership **/
+.menbership-form input[type=email], #footer input[type=email] {
+	font:normal 12px 'ProximaNova-Semibold',arial;
+	height:50px;
+	color:#94959f;
+	border:0;
+	border-radius:0;
+	-o-border-radius:0;
+	-ms-border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+}
+#footer input[type=email] {
+	border-radius:50px 0 0 50px;
+	-o-border-radius:50px 0 0 50px;
+	-ms-border-radius:50px 0 0 50px;
+	-moz-border-radius:50px 0 0 50px;
+	-webkit-border-radius:50px 0 0 50px;
+}
+#footer input[type=email]:focus {
+	box-shadow:none !important;
+}
+input#txtEmail::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	text-transform:uppercase;
+}
+input#txtEmail:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	text-transform:uppercase;
+}
+input#txtEmail::-moz-placeholder { /* Mozilla Firefox 19+ */
+	text-transform:uppercase;
+}
+input#txtEmail:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	text-transform:uppercase;
+}
+/** eof Membership **/
+/*#footer input[type=email], #footer button[type=button] {
+	border:1px solid #d7d7d7;
+}*/
+/*#footer button[type=button] {
+	border-left:0;
+	border-radius:0 50px 50px 0;
+	-o-border-radius:0 50px 50px 0;
+	-ms-border-radius:0 50px 50px 0;
+	-moz-border-radius:0 50px 50px 0;
+	-webkit-border-radius:0 50px 50px 0;
+	    background: #22ACC3;
+}*/
+#dashboard-page .select2-container .select2-selection--single {
+	height:40px !important;
+	padding-left:40px !important;
+}
+#dashboard-page .select2-container--default .select2-selection--single .select2-selection__rendered {
+	height:40px !important;
+	line-height:40px;
+}
+#dashboard-page .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height:40px !important;						
+}
+#dashboard-page .col-lg-3 .select2-container .select2-selection--single {
+	padding-left:40px !important;
+}
+#dashboard-page .col-lg-3 {
+	padding:0;
+}
+#search-docsec .find-doctor-section .col-lg-2 {
+	padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+#dashboard-page .col-lg-7 {
+	padding:0 5px 0 0;
+}
+
+/** About Us **/
+#aboutUsPage .btn-read {
+	background:#114c4b;
+	height:30px;
+	line-height:50px;	
+}
+#aboutUsPage .btn-read:hover {
+	color:#fff;
+}
+/** eof About Us **/
+
+/**bootstrap radio button**/
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: 50%;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+	background:#61C64D;
+	border:none;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 25%;
+    left: 15%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+/***  eof tab section ***/
+/**another checkbox style**/
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span {
+    width: 20px;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;   
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;   
+}
+.chk-btn {
+	margin-top:-34px;
+	width:69%;
+}
+.btn-group-chk > .btn:last-child:not(:first-child), .btn-group-chk > .dropdown-toggle:not(:first-child) {
+	margin-left:40px;
+}
+
+/** Contact Us **/
+.contact-section .btn-save {	
+	background:#002b71;
+	width:100%;
+	height:40px;
+	border:1px solid #002b71;
+	border-radius:20px;
+	
+}
+	.contact-section .btn-save:hover {
+		background: #fff;
+		color:#002b71;
+		border:1px solid #002b71;
+	}
+/** eof Contact Us **/
+
+/** Insurance Add Policy text area size and add border of drop down **/
+#insurance-textarea {
+	 height:156px !important;
+	 width:100%;
+}
+
+/** Eof Insurance Add Policy text area size **/
+
+/** Css for order medicine **/
+
+.ordermedicine-color {
+	 background-color:#FFF;	
+	 border: 1px solid #eee;
+}
+
+/**Css for order button of order medicine page**/
+.order-medicine-section .btn-link{
+  padding:1px 10px;
+  text-transform:none;
+  text-decoration:none;
+}
+/** eof Css for order button of order medicine page**/
+
+/** eof order medicine **/
+/*
+.search-block  {
+	margin-left:10px;	
+}*/
+#search-docsec .col-lg-2 {
+padding-right: 15px;
+ padding-left: 15px;
+}
+.find-doctor-section .btn-find-doc-list {
+	width:100%
+}
